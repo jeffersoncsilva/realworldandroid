@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Real-World Android App"
 include(":app")
+include(":logging")

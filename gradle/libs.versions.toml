@@ -17,6 +17,7 @@ junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 timber = "5.0.1"
+glidev = "4.16.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -40,6 +41,7 @@ junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glidev"}
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

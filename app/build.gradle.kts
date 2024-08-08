@@ -30,9 +30,13 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures{
+        viewBinding = true
+    }
 }
 
 dependencies {
+    implementation(project(":logging"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -58,4 +62,7 @@ dependencies {
     implementation(libs.frag.navigation)
     implementation(libs.frag.navigation.ui)
     //implementation(libs.frag.navigation.safe.args)
+
+    // Glide
+    implementation(libs.glide)
 }

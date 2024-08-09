@@ -65,4 +65,16 @@ dependencies {
 
     // Glide
     implementation(libs.glide)
+
+    // Testes
+    testImplementation(libs.junit)
+    testImplementation(libs.truth)
+    testImplementation(libs.mockito)
+    testImplementation(libs.roletric)
+    testImplementation(libs.mockwebserver)
+    androidTestImplementation(libs.truth)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation(libs.mockwebserver)
+    androidTestImplementation(libs.hilt.test)
 }

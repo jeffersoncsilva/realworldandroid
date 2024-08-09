@@ -16,13 +16,13 @@ okhttpv = "4.12.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
-espresso = "3.6.1"
 timber = "5.0.1"
 glidev = "4.16.0"
-mockitov = "5.12.0"
+mockitov = "5.4.0"
 robolectricv = "4.13"
-truthv = "1.1.3"
+truthv = "1.4.4"
 mockwebserver = "1.0"
+monitor = "1.7.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -45,12 +45,13 @@ frag-navigation-ui = { group = "androidx.navigation", name = "navigation-ui-ktx"
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
-mockito = { group = "org.mokito", name = "mockito-core", version.ref = "mockitov" }
-roletric = { group = "org.robolectric", name = "roboletric", version.ref = "robolectricv" }
+mockito = { group = "org.mockito", name = "mockito-core", version.ref = "mockitov" }
+roletric = { group = "org.robolectric", name = "robolectric", version.ref = "robolectricv" }
 truth = { group = "com.google.truth", name = "truth", version.ref = "truthv" }
-mockwebserver = {group = "com.squareup.okhttp3", name = "mockwebserver", version.ref = "mockwebserver" }
+mockwebserver = {group = "com.squareup.okhttp3", name = "mockwebserver", version.ref = "okhttpv" }
 timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
 glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glidev"}
+androidx-monitor = { group = "androidx.test", name = "monitor", version.ref = "monitor" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

@@ -47,6 +47,7 @@ dependencies {
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
     implementation(libs.androidx.monitor)
+    implementation(libs.reactivex.room)
     ksp(libs.androidx.room.compiler)
 
     // Hilt - DI
@@ -66,6 +67,11 @@ dependencies {
 
     // Glide
     implementation(libs.glide)
+
+    // biblioteca rxjava
+    implementation(libs.reactivex.rxjava)
+    implementation(libs.reactivex.rxkotlin)
+    implementation(libs.reactivex.rxandroid)
 
     // Testes
     testImplementation(libs.junit)

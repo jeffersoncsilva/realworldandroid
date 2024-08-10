@@ -6,4 +6,8 @@
     </style>
 
     <style name="Theme.RealWorldAndroidApp" parent="Base.Theme.RealWorldAndroidApp" />
+
+    <style name="FragmentScenarioEmptyFragmentActivityTheme" parent="android:Theme.WithActionBar">
+        <item name="android:windowIsFloating">false</item>
+    </style>
 </resources>

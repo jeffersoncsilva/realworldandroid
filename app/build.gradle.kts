@@ -64,7 +64,6 @@ dependencies {
     // Fragment-Navigation
     implementation(libs.frag.navigation)
     implementation(libs.frag.navigation.ui)
-    //implementation(libs.frag.navigation.safe.args)
 
     // Glide
     implementation(libs.glide)
@@ -79,10 +78,13 @@ dependencies {
     testImplementation(libs.truth)
     testImplementation(libs.mockito)
     testImplementation(libs.roletric)
-    testImplementation(libs.mockwebserver)
+    testImplementation(libs.org.hamcrast)
+    androidTestImplementation(libs.okhttp3.mockwebserver)
     androidTestImplementation(libs.truth)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    androidTestImplementation(libs.mockwebserver)
     androidTestImplementation(libs.hilt.test)
+    debugImplementation(libs.androidx.arch.core.testing)
+    debugImplementation(libs.kotlinx.test)
+    debugImplementation(libs.fragment.test)
 }

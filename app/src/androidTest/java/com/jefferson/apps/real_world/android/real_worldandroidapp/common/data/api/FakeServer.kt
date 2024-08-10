@@ -1,4 +1,4 @@
-package com.jefferson.apps.real_world.android.real_worldandroidapp.common.api
+package com.jefferson.apps.real_world.android.real_worldandroidapp.common.data.api
 
 import androidx.test.platform.app.InstrumentationRegistry
 import com.jefferson.apps.real_world.android.logging.main.Logger

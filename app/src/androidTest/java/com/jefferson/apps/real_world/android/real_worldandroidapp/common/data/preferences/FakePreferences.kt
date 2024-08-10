@@ -1,4 +1,4 @@
-package com.jefferson.apps.real_world.android.real_worldandroidapp.common.preferences
+package com.jefferson.apps.real_world.android.real_worldandroidapp.common.data.preferences
 
 import com.jefferson.apps.real_world.android.real_worldandroidapp.common.data.preferences.Preferences
 import com.jefferson.apps.real_world.android.real_worldandroidapp.common.data.preferences.PreferencesConstants

@@ -13,8 +13,10 @@ import com.jefferson.apps.real_world.android.real_worldandroidapp.common.domain.
 import com.jefferson.apps.real_world.android.real_worldandroidapp.common.presentation.AnimalsAdapter
 import com.jefferson.apps.real_world.android.real_worldandroidapp.common.presentation.Event
 import com.jefferson.apps.real_world.android.real_worldandroidapp.databinding.FragmentSearchBinding
+import dagger.hilt.android.AndroidEntryPoint
 import java.io.IOException
 
+@AndroidEntryPoint
 class SearchFragment : Fragment() {
     private val binding get() = _binding!!
     private var _binding: FragmentSearchBinding? = null

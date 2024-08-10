@@ -25,6 +25,7 @@ rxjava = "2.2.21"
 rxkotlin = "2.4.0"
 rxandroid = "2.1.1"
 monitor = "1.7.1"
+moshiKotlinCodegen = "1.15.1"
 
 
 [libraries]
@@ -59,6 +60,8 @@ reactivex-rxjava = { group = "io.reactivex.rxjava2", name = "rxjava", version.re
 reactivex-rxkotlin = { group = "io.reactivex.rxjava2", name = "rxkotlin", version.ref = "rxkotlin"}
 reactivex-rxandroid = { group = "io.reactivex.rxjava2", name = "rxandroid", version.ref = "rxandroid"}
 reactivex-room = { group = "androidx.room", name = "room-rxjava2", version.ref = "roomVersion" }
+moshi-kotlin-codegen = { group = "com.squareup.moshi", name = "moshi-kotlin-codegen", version.ref = "moshiKotlinCodegen" }
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

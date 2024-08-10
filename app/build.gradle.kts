@@ -59,6 +59,7 @@ dependencies {
     implementation(libs.moshi)
     implementation(libs.okhttp)
     implementation(libs.log.okhttp.inteceptor)
+    ksp(libs.moshi.kotlin.codegen)
 
     // Fragment-Navigation
     implementation(libs.frag.navigation)

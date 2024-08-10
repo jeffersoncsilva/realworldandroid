@@ -7,7 +7,13 @@
 
     <fragment
         android:id="@+id/animalsNearYou"
-        android:name="com.jefferson.apps.real_world.android.real_worldandroidapp.animalsnearyou.AnimalsNearYouFragment"
+        android:name="com.jefferson.apps.real_world.android.real_worldandroidapp.animalsnearyou.presentation.AnimalsNearYouFragment"
         android:label="@string/animals_near_you_screen_label"
         tools:layout="@layout/fragment_animals_near_you" />
+
+    <fragment
+        android:id="@+id/search"
+        android:name="com.jefferson.apps.real_world.android.real_worldandroidapp.search.SearchFragment"
+        android:label="@string/search_screen_label"
+        tools:layout="@layout/fragment_search" />"
 </navigation>

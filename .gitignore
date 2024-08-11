@@ -11,6 +11,9 @@
 /kotlin
 .idea/
 kotlin/
+.kotlin
+.idea
+.gradle
 .DS_Store
 /build
 /captures

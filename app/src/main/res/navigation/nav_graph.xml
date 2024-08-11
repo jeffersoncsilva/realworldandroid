@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/search"
-        android:name="com.jefferson.apps.real_world.android.real_worldandroidapp.search.SearchFragment"
+        android:name="com.jefferson.apps.real_world.android.real_worldandroidapp.search.presentation.SearchFragment"
         android:label="@string/search_screen_label"
         tools:layout="@layout/fragment_search" />"
 </navigation>

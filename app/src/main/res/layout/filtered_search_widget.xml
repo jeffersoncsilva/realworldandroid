@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/filtered_search_widget_container"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/filtered_search_widget_container"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
@@ -28,11 +29,12 @@
         app:layout_constraintTop_toBottomOf="@id/search">
 
         <AutoCompleteTextView
-            android:id="@+id/type_dropdown"
+            android:id="@+id/type"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/animal_type_dropdown_menu_hint"
-            android:inputType="none" />
+            android:inputType="none"
+            tools:ignore="SpeakableTextPresentCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -50,11 +52,12 @@
         app:layout_constraintTop_toBottomOf="@+id/search">
 
         <AutoCompleteTextView
-            android:id="@+id/age_dropdown"
+            android:id="@+id/age"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/age_dropdown_menu_hint"
-            android:inputType="none" />
+            android:inputType="none"
+            tools:ignore="SpeakableTextPresentCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
 

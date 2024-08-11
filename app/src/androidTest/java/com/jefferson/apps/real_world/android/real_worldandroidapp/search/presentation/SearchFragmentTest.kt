@@ -15,11 +15,10 @@ import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.apps.real_world.real_worldandroidapp.RxImmediateSchedulerRule
-import com.apps.real_world.real_worldandroidapp.common.data.FakeRepository
+import com.jefferson.apps.real_world.android.real_worldandroidapp.RxImmediateSchedulerRule
+import com.jefferson.apps.real_world.android.real_worldandroidapp.data.FakeRepository
 import com.jefferson.apps.real_world.android.real_worldandroidapp.R
 import com.jefferson.apps.real_world.android.real_worldandroidapp.launchFragmentInHiltContainer
-import com.jefferson.apps.real_world.android.real_worldandroidapp.search.SearchFragment
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
 import org.hamcrest.Description

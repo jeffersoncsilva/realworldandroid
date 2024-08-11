@@ -1,6 +1,5 @@
 package com.jefferson.apps.real_world.android.logging.main
 
-import com.jefferson.apps.real_world.android.logging.debug.TimberLogging
 import timber.log.Timber
 
 object Logger {

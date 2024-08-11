@@ -1,24 +1,24 @@
 package com.jefferson.apps.real_world.android.real_worldandroidapp.common.data.di
 
 import androidx.room.Room
-import androidx.test.espresso.core.internal.deps.dagger.Binds
-import androidx.test.espresso.core.internal.deps.dagger.Module
 import androidx.test.platform.app.InstrumentationRegistry
 import com.jefferson.apps.real_world.android.real_worldandroidapp.common.data.cache.Cache
 import com.jefferson.apps.real_world.android.real_worldandroidapp.common.data.cache.PetSaveDatabase
 import com.jefferson.apps.real_world.android.real_worldandroidapp.common.data.cache.RoomCache
 import com.jefferson.apps.real_world.android.real_worldandroidapp.common.data.cache.daos.AnimalsDao
 import com.jefferson.apps.real_world.android.real_worldandroidapp.common.data.cache.daos.OrganizationsDao
+import dagger.Binds
+import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
-@Module
 @InstallIn(SingletonComponent::class)
+@Module
 abstract class TestCacheModule {
     @Binds
-    abstract fun bincCache(cache: RoomCache): Cache
+    abstract fun bindCache(cache: RoomCache): Cache
 
     companion object{
         @Provides

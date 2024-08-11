@@ -1,6 +1,6 @@
 package com.jefferson.apps.real_world.android.real_worldandroidapp.common.data
 
-import com.apps.real_world.real_worldandroidapp.RxImmediateSchedulerRule
+import com.jefferson.apps.real_world.android.real_worldandroidapp.RxImmediateSchedulerRule
 import com.google.common.truth.Truth.assertThat
 import com.jefferson.apps.real_world.android.real_worldandroidapp.common.data.api.FakeServer
 import com.jefferson.apps.real_world.android.real_worldandroidapp.common.data.api.PetFinderApi
@@ -26,7 +26,6 @@ import org.junit.Test
 import retrofit2.Retrofit
 import java.time.Instant
 import javax.inject.Inject
-import kotlin.math.exp
 
 @HiltAndroidTest
 @UninstallModules(PreferencesModule::class, CacheModule::class)

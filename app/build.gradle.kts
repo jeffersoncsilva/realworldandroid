@@ -79,6 +79,7 @@ dependencies {
     testImplementation(libs.mockito)
     testImplementation(libs.roletric)
     testImplementation(libs.org.hamcrast)
+    testImplementation(libs.okhttp3.mockwebserver)
     androidTestImplementation(libs.okhttp3.mockwebserver)
     androidTestImplementation(libs.truth)
     androidTestImplementation(libs.androidx.junit)
@@ -87,4 +88,5 @@ dependencies {
     debugImplementation(libs.androidx.arch.core.testing)
     debugImplementation(libs.kotlinx.test)
     debugImplementation(libs.fragment.test)
+    debugImplementation(libs.truth)
 }
